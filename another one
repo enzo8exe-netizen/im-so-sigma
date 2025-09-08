@@ -1,0 +1,21 @@
+//zad 1
+
+int a = int.Parse(Console.ReadLine());
+if (a % 3 == 0)
+    Console.WriteLine("TAK");
+else
+    Console.WriteLine("NIE");
+
+//zad 2
+//WIP
+
+
+int a = int.Parse(Console.ReadLine());
+if (a % 17 == 0) & (a >= 100);
+
+
+Console.WriteLine("TAK");
+
+else
+
+    Console.WriteLine("NIE");
