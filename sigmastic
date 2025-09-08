@@ -1,3 +1,5 @@
+zad 1
+
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 
@@ -5,3 +7,35 @@ int aup = a * a;
 int bup = b * b;
 
 Console.WriteLine(aup + bup);
+
+zad 2 
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+int ab = a + b;
+int ab2 = ab * ab;
+
+Console.WriteLine(ab2);
+
+zad 3
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+int c = a - b;
+int c3 = c ** 3;
+
+Console.WriteLine(c3);
+
+zad 4
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+
+int d = a * b * c;
+
+Console.WriteLine(d);
+
+
+
