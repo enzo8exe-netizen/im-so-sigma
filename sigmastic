@@ -56,3 +56,12 @@ float bruttovat = (float)(brutto / 1.23);
 
 Console.WriteLine(bruttovat);
 
+zad 7
+
+float a = int.Parse(Console.ReadLine());
+float b = int.Parse(Console.ReadLine());
+
+float ab = a % b;
+
+
+Console.WriteLine(ab);
