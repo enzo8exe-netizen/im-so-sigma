@@ -37,5 +37,14 @@ int d = a * b * c;
 
 Console.WriteLine(d);
 
+zad 5
+
+float a = int.Parse(Console.ReadLine());
+float b = int.Parse(Console.ReadLine());
+float s = a + b;
+float e = s * 2;
+float f = e / 5;
+
+Console.WriteLine(f);
 
 
