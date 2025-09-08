@@ -48,3 +48,11 @@ float f = e / 5;
 Console.WriteLine(f);
 
 
+zad 6 
+
+float brutto = int.Parse(Console.ReadLine());
+float bruttovat = (float)(brutto / 1.23);
+
+
+Console.WriteLine(bruttovat);
+
