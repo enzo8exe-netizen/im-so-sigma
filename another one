@@ -74,3 +74,33 @@ else
 
 // zad 6 
 
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+
+def fermat_test(a, p):
+    if not is_prime(p):
+        return "NIE"
+    if (pow(a, p, p) - a) % p == 0:
+        return "TAK"
+    else:
+        return "NIE"
+
+a = int(input("Podaj a: "))
+p = int(input("Podaj p: "))
+
+print(fermat_test(a, p))
+
+
+//zad 7
