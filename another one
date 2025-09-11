@@ -7,15 +7,70 @@ else
     Console.WriteLine("NIE");
 
 //zad 2
-//WIP
+        Console.Write("Podaj liczbę: ");
+        string a = Console.ReadLine();
 
+       
+        if (int.TryParse(a, out int v))
+        {
+            
+            if (Math.Abs(v) >= 100 && Math.Abs(v) <= 999 && v % 17 == 0)
+            {
+                Console.WriteLine("TAK");
+            }
+            else
+            {
+                Console.WriteLine("NIE");
+            }
+        }
+        else
+        {
+            Console.WriteLine("NIEPRAWIDŁOWE DANE");
+        }
+    
+
+// zad 3
 
 int a = int.Parse(Console.ReadLine());
-if (a % 17 == 0) & (a >= 100);
-
-
-Console.WriteLine("TAK");
-
+if (a => 18)
+    Console.WriteLine("masz +18 lat");
 else
+    Console.WriteLine("bambiczek");
 
-    Console.WriteLine("NIE");
+//zad 4
+
+nt waga = int.Parse(Console.ReadLine());
+if (waga < 20)
+    Console.WriteLine("możesz przejechać");
+else
+    Console.WriteLine("nie możesz :3");
+
+// zad 5
+
+
+        Console.Write();
+        string[] input = Console.ReadLine().Split(' ');
+
+        if (input.Length != 3 ||
+            !int.TryParse(input[0], out int a) ||
+            !int.TryParse(input[1], out int b) ||
+            !int.TryParse(input[2], out int c))
+        {
+            Console.WriteLine("NIEPRAWIDŁOWE DANE");
+            return;
+        }
+
+        )
+        if ((c > Math.Min(a, b)) && (c < Math.Max(a, b)))
+        {
+            Console.WriteLine("TAK");
+        }
+        else
+        {
+            Console.WriteLine("NIE");
+        }
+
+
+
+// zad 6 
+
