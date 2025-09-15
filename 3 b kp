@@ -1,0 +1,6 @@
+//zad 2
+
+for (int day = 1; day <= 30; day++)
+        {
+            Console.WriteLine($"2022-11-{day:00}");
+        }
