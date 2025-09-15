@@ -169,4 +169,77 @@ else
     Console.WriteLine("NIE")
 }
 
-//zad3
+//zad 4
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+int d = int.Parse(Console.ReadLine());
+
+
+if (a < b)
+{
+    if (a < c)
+    {
+        if (a < d)
+        {
+            Console.WriteLine(a);
+        }
+
+    }
+}
+
+
+if (b < a)
+{
+    if (b < c)
+    {
+        if (b < d)
+        {
+            Console.WriteLine(b);
+        }
+    }
+}
+
+if (c < b)
+{
+    if (c < a)
+    {
+        if (c < d)
+        {
+            Console.WriteLine(c);
+        }
+    }
+}
+
+if (d < c)
+{
+    if (d < a)
+    {
+        if (d < b)
+        {
+            Console.WriteLine(d);
+        }
+        
+    }
+}
+
+//zad 5
+
+Console.WriteLine();
+string[] input = Console.ReadLine().Split();
+double a = double.Parse(input[0]);
+double b = double.Parse(input[1]);
+double c = double.Parse(input[2]);
+
+if (CzyMoznaZbudowacTrojkat(a, b, c))
+{
+    Console.WriteLine("TAK");
+}
+else
+{
+    Console.WriteLine("NIE");
+}
+    
+
+    static bool CzyMoznaZbudowacTrojkat(double a, double b, double c) => a + b > c && a + c > b && b + c > a;
