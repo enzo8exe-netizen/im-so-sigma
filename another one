@@ -104,3 +104,69 @@ print(fermat_test(a, p))
 
 
 //zad 7
+
+
+        Console.WriteLine("Podaj p, k, s oddzielone spacjami:");
+        string[] input = Console.ReadLine().Split();
+        int p = int.Parse(input[0]);
+        int k = int.Parse(input[1]);
+        int s = int.Parse(input[2]);
+
+        if (CanReachInThreeJumps(p, k, s))
+        {
+            Console.WriteLine("TAK");
+        }
+        else
+        {
+            Console.WriteLine("NIE");
+        }
+
+    static bool CanReachInThreeJumps(int p, int k, int s)
+    {
+        return (k - p) == 3 * s;
+    }
+
+
+karty pracy a 
+
+
+//zad 1
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+
+int c = a + b;
+
+if (c % 2 == 0)
+{
+
+    Console.WriteLine("TAK");
+}
+else
+{
+    Console.WriteLine("NIE");
+
+}
+
+
+//zad 2
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+int c = a + b / 2;
+
+int r = (int)Math.Sqrt(a * b);
+
+if (r < c)
+{
+    Console.WriteLine("NIE")
+}
+
+else
+{
+    Console.WriteLine("NIE")
+}
+
+//zad3
