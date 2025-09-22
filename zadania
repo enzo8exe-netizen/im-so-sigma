@@ -68,3 +68,10 @@ else
 {
     Console.WriteLine("Nwm");
 }
+
+zad 5
+
+for (int i = 98; i >= 10; i -= 10)
+{
+    Console.WriteLine(i);
+}
