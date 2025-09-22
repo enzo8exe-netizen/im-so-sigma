@@ -1,0 +1,70 @@
+zad 1
+
+
+for (int i = 10; i < 100; i += 2)
+        {
+            Console.WriteLine(i);
+        }
+
+
+double a = double.Parse(Console.ReadLine());
+double b = double.Parse(Console.ReadLine());
+
+if (a < 100 && b > 100 && a % 2 == 0 && b % 2 == 0 && a > 1000 && b > 1000)
+{
+    Console.WriteLine("wrong variables");
+}
+else
+{
+    Console.Writeline(a + b);
+}
+
+
+zad 2
+
+double a = double.Parse(Console.ReadLine());
+double b = double.Parse(Console.ReadLine());
+
+if (b % a == 0)
+{
+    Console.WriteLine("Yes");
+}
+else
+{
+    Console.Writeline("No");
+}
+
+
+zad 4
+
+double a = double.Parse(Console.ReadLine());
+double b = double.Parse(Console.ReadLine());
+
+if (a < b)
+{
+    double c = a = b;
+    if (c == a / 2) ;
+    {
+        Console.WriteLine("tak");
+    }
+    else () {
+        Console.WriteLine("nie");
+    }
+
+}
+  if (a > b)
+{
+    double d = b - a;
+    if (b / 2 == d)
+    {
+        Console.WriteLine("tak");
+    }
+    else () {
+        Console.WriteLine("nie");
+    }
+   
+}
+else
+{
+    Console.WriteLine("Nwm");
+}
